@@ -1470,4 +1470,3 @@ module Uint128 = struct
   module Inf = Infix.Make(Base)
   include (Inf : module type of Inf with type t := uint128)
 end
-
